@@ -1,0 +1,22 @@
+# runtime artifacts
+.cache/
+audio/
+vendor/
+*.log
+
+# personal overrides
+config.local.json
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

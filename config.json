@@ -1,0 +1,19 @@
+{
+  "voice": "ryan",
+  "rate": 1.0,
+  "language": "auto",
+  "engine": {
+    "url": "http://127.0.0.1:27117",
+    "autostart": true,
+    "exe": "vendor/tts/tts-server.exe",
+    "model": "vendor/tts/models/qwen-talker-1.7b-customvoice-Q8_0.gguf",
+    "codec": "vendor/tts/models/qwen-tokenizer-12hz-Q8_0.gguf",
+    "boot_timeout_s": 120,
+    "extra_args": []
+  },
+  "cache_dir": ".cache/tts",
+  "audio_dir": "audio",
+  "max_chars": 240,
+  "min_chars": 48,
+  "max_total_chars": 6000
+}
